@@ -68,6 +68,11 @@ public class Contenedor extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Salir");
+        jMenu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu2ActionPerformed(evt);
+            }
+        });
 
         Salir.setText("Salir");
         jMenu2.add(Salir);
@@ -103,6 +108,11 @@ public class Contenedor extends javax.swing.JFrame {
          em.setVisible(true);
          this.setVisible(false);
     }//GEN-LAST:event_AlmacenamientoEmpleadoActionPerformed
+
+    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
+        // TODO add your handling code here:
+          System.exit(0);
+    }//GEN-LAST:event_jMenu2ActionPerformed
 
     /**
      * @param args the command line arguments
