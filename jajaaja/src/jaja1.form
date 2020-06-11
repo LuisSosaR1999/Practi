@@ -25,7 +25,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="106" max="-2" attributes="0"/>
+              <Component id="jajaaj" min="-2" pref="106" max="-2" attributes="0"/>
               <EmptySpace pref="327" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -34,16 +34,16 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Component id="jajaaj" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="344" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="jajaaj">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Practica"/>
+        <Property name="text" type="java.lang.String" value="PRACTICA"/>
       </Properties>
     </Component>
   </SubComponents>
